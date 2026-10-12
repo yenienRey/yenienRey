@@ -2,7 +2,7 @@
   <img src="https://yenien.com/banner" alt="Yenien Rey, full stack developer. A hand-drawn Patagonian landscape at sunset: snowy peaks, a lake, a red A-frame cabin with a terminal in its window, and a hiker." width="100%">
 </a>
 
-<img src="portrait.svg" align="right" width="210" alt="A hand-drawn portrait of Yenien in a bucket hat, holding a mate, with snowy peaks behind.">
+<img src="trail.svg" align="right" width="210" alt="A hand-drawn Yenien hiking a snowy trail toward a red A-frame cabin. He stops to watch a condor pass, drinks a mate, and walks on.">
 
 ### Hi, I'm Yenien.
 

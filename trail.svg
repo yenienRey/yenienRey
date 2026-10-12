@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -14 428 428" width="400" height="400" role="img" aria-labelledby="t">
+  <title id="t">Yenien hiking a snowy trail at sunset; he stops to watch a condor go over, has a mate, and walks on to a red A-frame cabin</title>
+  <style>
+    .ink { stroke: #1e2b4a; stroke-width: 4; stroke-linejoin: round; stroke-linecap: round; }
+    .thin { stroke: #1e2b4a; stroke-width: 2.5; stroke-linecap: round; fill: none; }
+    .sky-top { stop-color: #f6d2cf; } .sky-bottom { stop-color: #f7a861; }
+    .sun { fill: #f0643a; }
+    .far { fill: #9a86c4; } .mid { fill: #6c5aa6; }
+    .meadow { fill: #eef3f6; } .meadow-2 { fill: #dde7ef; }
+    .trail { fill: #c9d3de; }
+    .forest { fill: #2f6b3a; }
+    .window { fill: #f6c445; }
+    .night { opacity: 0; }
+    .lupine { transform-box: fill-box; transform-origin: bottom; animation: sway 4s ease-in-out infinite alternate; }
+    .lupine:nth-of-type(2n) { animation-delay: -1.5s; }
+    .smoke path { animation: steam 4s ease-in-out infinite; } .smoke path + path { animation-delay: -2s; }
+    .stitch { stroke: #0f9e8a; stroke-width: 2.5; fill: none; stroke-linecap: round; }
+    .steam path { animation: steam 3.5s ease-in-out infinite; }
+    .cursor { animation: cursor 1.1s steps(1) infinite; }
+    .star { animation: twinkle 3s ease-in-out infinite; }
+    .star:nth-of-type(2n) { animation-delay: -1.3s; }
+    .orbit { transform-origin: 200px 200px; animation: orbit 24s linear infinite; }
+    @keyframes sway { from { transform: rotate(-4deg); } to { transform: rotate(4deg); } }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(4px); } 40% { opacity: .8; } 100% { opacity: 0; transform: translate(6px, -14px); } }
+    @keyframes cursor { 50% { opacity: 0; } }
+    @keyframes twinkle { 50% { opacity: .3; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    .trek { transform-origin: 194px 336px; animation: trek 29.7s linear infinite; }
+    .bob { animation: bob .55s ease-in-out infinite; }
+    .thigh { transform-origin: 196px 286px; animation: thigh 1.1s linear infinite; }
+    .shin { transform-origin: 196px 309px; animation: shin 1.1s linear infinite; }
+    .thigh.b, .shin.b { animation-delay: -.55s; }
+    .arm { transform-origin: 204px 232px; animation: arm 1.1s ease-in-out infinite; }
+    .lamp { animation: lamp 29.7s linear infinite; }
+    @keyframes trek {
+      0% { transform: translate(-84px, 64px) scale(1.25); opacity: 0; }
+      3% { opacity: 1; }
+      30.56%, 56.48% { transform: translate(-9px, -6px) scale(.95); }
+      72% { transform: translate(42px, -38px) scale(.62); }
+      89% { transform: translate(90px, -58px) scale(.4); }
+      97% { transform: translate(108px, -64px) scale(.3); opacity: 1; }
+      99.5%, 100% { transform: translate(112px, -66px) scale(.28); opacity: 0; }
+    }
+    @keyframes bob { 0%, 100% { transform: translateY(1.5px); } 50% { transform: translateY(-1.5px); } }
+    @keyframes thigh { 0%, 100% { transform: rotate(-20deg); } 50% { transform: rotate(18deg); } 75% { transform: rotate(-4deg); } }
+    @keyframes shin { 0%, 45% { transform: rotate(0); } 62% { transform: rotate(42deg); } 80% { transform: rotate(28deg); } 95%, 100% { transform: rotate(0); } }
+    @keyframes arm { 0%, 100% { transform: rotate(12deg); } 50% { transform: rotate(-12deg); } }
+    @keyframes lamp { 0% { opacity: .9; } 5%, 96% { opacity: 0; } 98%, 100% { opacity: .9; } }
+    .walking { animation: walking 29.7s linear infinite; }
+    .resting { opacity: 0; animation: resting 29.7s linear infinite; }
+    .breathe { transform-origin: 196px 336px; animation: breathe 4s ease-in-out infinite; }
+    .sip-head { transform-origin: 200px 222px; animation: watch 29.7s ease-in-out infinite; }
+    .forearm { transform-origin: 210px 255px; animation: sip 29.7s ease-in-out infinite; }
+    .eye { transform-box: fill-box; transform-origin: center; animation: blink 5s infinite; }
+    .condor { animation: pass 29.7s linear infinite; }
+    @keyframes walking { 0%, 30.55% { opacity: 1; } 30.56%, 56.47% { opacity: 0; } 56.48%, 100% { opacity: 1; } }
+    @keyframes resting { 0%, 30.55% { opacity: 0; } 30.56%, 56.47% { opacity: 1; } 56.48%, 100% { opacity: 0; } }
+    @keyframes breathe { 50% { transform: scaleY(1.012); } }
+    @keyframes blink { 0%, 93%, 97%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+    /* looks up at the condor, then down for the mate */
+    @keyframes watch { 0%, 31.5% { transform: rotate(0); } 33.5%, 38.5% { transform: rotate(-12deg); } 41%, 44% { transform: rotate(0); } 46%, 51% { transform: rotate(6deg); } 53.5%, 100% { transform: rotate(0); } }
+    @keyframes sip { 0%, 44% { transform: rotate(0); } 46%, 51% { transform: rotate(-52deg); } 53.5%, 100% { transform: rotate(0); } }
+    @keyframes pass {
+      0%, 27% { transform: translate(-190px, 24px) rotate(-3deg); opacity: 0; }
+      28% { opacity: 1; }
+      36% { transform: translate(60px, -8px) rotate(3deg); }
+      44% { transform: translate(200px, 6px) rotate(-2deg); }
+      49% { transform: translate(330px, -4px) rotate(2deg); opacity: 1; }
+      50%, 100% { transform: translate(340px, -4px); opacity: 0; }
+    }
+    .snowfall { animation: fall 14s linear infinite; }
+    @keyframes fall { to { transform: translate(-20px, 400px); } }
+    @media (prefers-color-scheme: dark) {
+      .sky-top { stop-color: #060b1a; } .sky-bottom { stop-color: #1b2c4f; }
+      .sun { fill: #f3e9c9; }
+      .far { fill: #33467a; } .mid { fill: #263a6b; }
+      .meadow { fill: #3a4a68; } .meadow-2 { fill: #2e3d59; }
+      .trail { fill: #2a3754; }
+      .forest { fill: #10301d; }
+      .snow { fill: #c9d6f2; }
+      .night { opacity: 1; }
+      .ring { stroke: #6ff2dc; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="sky-top"/><stop offset="1" class="sky-bottom"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff6c9" stop-opacity=".8"/><stop offset="1" stop-color="#fff6c9" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="disc"><circle cx="200" cy="200" r="186"/></clipPath>
+    <g id="lupine">
+      <path d="M0 0 V-34" stroke="#2f6b3a" stroke-width="3"/>
+      <ellipse cx="0" cy="-30" rx="5" ry="16"/>
+      <path d="M-6 0 q-6 -8 -12 -6 M6 0 q6 -8 12 -6" stroke="#2f6b3a" stroke-width="3" fill="none"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#disc)">
+    <rect width="400" height="400" fill="url(#sky)"/>
+
+    <g class="night" fill="#fff">
+      <circle class="star" cx="70" cy="90" r="2"/><circle class="star" cx="130" cy="50" r="1.5"/>
+      <circle class="star" cx="250" cy="45" r="2"/><circle class="star" cx="340" cy="100" r="1.5"/>
+      <circle class="star" cx="190" cy="80" r="1.5"/><circle class="star" cx="45" cy="160" r="1.5"/>
+    </g>
+
+    <!-- low sun (moon at night) sliding behind the range -->
+    <circle class="sun ink" cx="268" cy="176" r="30" stroke-width="3"/>
+
+    <path class="far ink" d="M-10 230 L60 160 L110 200 L170 130 L240 200 L300 150 L410 230 L410 300 L-10 300 Z"/>
+    <path class="snow ink" fill="#fff" stroke-width="3" d="M170 130 L190 152 L182 148 L175 156 L168 149 L157 154 Z"/>
+    <path class="snow ink" fill="#fff" stroke-width="3" d="M300 150 L318 168 L310 166 L303 172 L296 166 L286 169 Z"/>
+    <path class="snow ink" fill="#fff" stroke-width="3" d="M60 160 L75 178 L68 175 L61 181 L55 176 L47 178 Z"/>
+    <path class="mid ink" d="M-10 252 L60 218 L130 244 L200 214 L270 240 L340 222 L410 246 L410 300 L-10 300 Z"/>
+
+    <!-- a few conifers -->
+    <g class="forest ink" stroke-width="3">
+      <path d="M40 270 L56 220 L72 270 Z"/><path d="M66 274 L80 232 L94 274 Z"/>
+      <path d="M352 268 L366 224 L380 268 Z"/>
+      <path class="snow" fill="#fff" stroke-width="2.5" d="M50 238 L56 220 L62 238 L56 234 Z M74 248 L80 232 L86 248 L80 244 Z M360 240 L366 224 L372 240 L366 236 Z"/>
+    </g>
+
+    <!-- meadow and the trail to the cabin -->
+    <path class="meadow ink" d="M-10 262 C100 248 300 248 410 262 L410 410 L-10 410 Z"/>
+    <path class="meadow-2" d="M-10 330 C120 312 260 340 410 320 L410 410 L-10 410 Z"/>
+    <path class="trail ink" stroke-width="3" d="M300 268 C270 276 250 284 220 296 C170 314 120 340 60 410 L150 410 C180 360 220 326 258 304 C280 290 296 280 314 270 Z"/>
+
+
+    <!-- a condor riding the thermals -->
+    <g class="condor"><g transform="translate(110 92) scale(1.35)">
+      <path class="ink" stroke-width="2.5" fill="#1e2b4a" d="M-34 2 Q-20 -8 -6 -2 L0 -4 L6 -2 Q20 -8 34 2 L30 4 L26 2 L22 5 Q12 1 6 3 L0 8 L-6 3 Q-12 1 -22 5 L-26 2 L-30 4 Z"/>
+      <path d="M-22 1 Q-14 -3 -8 0 M22 1 Q14 -3 8 0" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <circle cx="0" cy="-4" r="2.6" fill="#fff"/><circle cx="0" cy="-6.5" r="2" fill="#c97a68"/>
+    </g></g>
+    <!-- the cabin, terminal in the window -->
+    <g transform="translate(316 216)">
+      <g class="smoke" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".7">
+        <path d="M34 2 q-5 -7 0 -14 q5 -7 0 -14"/>
+        <path d="M34 -6 q-4 -6 0 -12 q4 -6 0 -12"/>
+      </g>
+      <rect class="ink" x="28" y="4" width="10" height="20" fill="#7a3b2e" stroke-width="3"/>
+      <path class="ink" fill="#d4493a" d="M0 58 L28 0 L56 58 Z"/>
+      <path class="ink" fill="#7a3b2e" stroke-width="3" d="M14 58 L28 28 L42 58 Z"/>
+      <rect class="ink" x="20" y="38" width="16" height="12" rx="2" fill="#1e2b4a" stroke-width="2"/>
+      <rect class="lamp" x="20" y="38" width="16" height="12" rx="2" fill="#f6c445" opacity="0"/>
+      <rect class="cursor" x="24" y="45" width="7" height="2.5" fill="#6ff2dc"/>
+    </g>
+
+
+    <!-- him: walks, stops for the condor and a mate, walks on -->
+    <g class="trek"><g transform="translate(-6 0)">
+      <g class="walking"><g class="bob">
+        <path class="night" d="M220 196 L330 170 L330 236 Z" fill="url(#beam)"/>
+      <g class="thigh b"><path class="ink" fill="#2c3039" d="M189 282 L190 311 L202 311 L203 282 Z"/>
+        <g class="shin b"><path class="ink" fill="#2c3039" d="M190 308 L190 330 L201 330 L202 308 Z"/><path class="ink" fill="#7a3b2e" stroke-width="3" d="M186 328 L202 328 L207 336 L184 336 Z"/></g></g>
+      <g class="thigh a"><path class="ink" fill="#3a3f4a" d="M189 282 L190 311 L202 311 L203 282 Z"/>
+        <g class="shin a"><path class="ink" fill="#3a3f4a" d="M190 308 L190 330 L201 330 L202 308 Z"/><path class="ink" fill="#7a3b2e" stroke-width="3" d="M186 328 L202 328 L207 336 L184 336 Z"/></g></g>
+      <!-- backpack -->
+      <path class="ink" fill="#c8602b" d="M160 226 Q158 214 172 214 L184 214 L186 284 L168 284 Q158 282 160 268 Z"/>
+      <path class="ink" fill="#b04f22" stroke-width="3" d="M160 254 L178 254 L178 274 L162 274"/>
+      <rect class="ink" x="156" y="282" width="34" height="10" rx="5" fill="#2f5c9e" stroke-width="3"/>
+      <!-- jacket -->
+      <path class="ink" fill="#525866" d="M180 222 Q196 212 212 222 L214 290 L180 290 Z"/>
+      <path class="stitch" d="M184 248 l6 -4 l6 4 l6 -4 l6 4"/>
+      <path class="stitch" d="M184 268 l6 -4 l6 4 l6 -4 l6 4"/>
+        <g class="arm">
+          <path class="thin" stroke-width="3" d="M222 254 L232 336"/>
+          <path class="ink" fill="#5f6675" d="M200 226 Q212 228 224 252 L218 258 Q206 244 198 238 Z"/>
+          <circle class="ink" cx="222" cy="256" r="5" fill="#e9b48c" stroke-width="3"/>
+        </g>
+      <!-- head -->
+      <path class="ink" fill="#3b2a21" stroke-width="3" d="M188 196 C182 206 182 218 188 226 L198 222 L196 196 Z"/>
+      <path class="ink" fill="#e9b48c" d="M192 190 C206 184 222 190 222 204 C222 214 216 222 206 224 C198 224 192 218 192 208 Z"/>
+      <path d="M200 214 C204 224 214 226 220 216 C216 220 210 220 206 214 Z" fill="#6b4a35" fill-opacity=".7"/>
+      <circle class="eye" cx="212" cy="203" r="2.4" fill="#3b2a21"/>
+      <path d="M207 197 Q212 194 217 197" fill="none" stroke="#3b2a21" stroke-width="2.5" stroke-linecap="round"/>
+      <path class="thin" stroke-width="2" d="M220 204 Q224 209 220 211"/>
+      <!-- bucket hat with headlamp -->
+      <path class="ink" fill="#d9c29a" d="M188 192 C186 176 196 168 206 168 C218 168 224 178 222 192 Z"/>
+      <path class="ink" fill="#cdb489" stroke-width="3" d="M178 194 Q204 182 232 196 Q234 200 228 200 Q204 192 182 200 Q176 200 178 194 Z"/>
+      <rect class="ink" x="216" y="184" width="8" height="7" rx="2" fill="#1e2b4a" stroke-width="2"/>
+      <circle class="night" cx="222" cy="187.5" r="2.5" fill="#fff6c9"/>
+      </g></g>
+      <g class="resting"><g class="breathe">
+        <path class="thin" stroke-width="3" d="M168 236 L156 336"/>
+        <path class="ink" fill="#2c3039" d="M190 284 L188 330 L200 332 L202 286 Z"/><path class="ink" fill="#7a3b2e" stroke-width="3" d="M184 328 L202 328 L206 336 L182 336 Z"/>
+        <path class="ink" fill="#3a3f4a" d="M192 284 L194 330 L206 330 L204 284 Z"/><path class="ink" fill="#7a3b2e" stroke-width="3" d="M192 328 L208 328 L213 336 L190 336 Z"/>
+        
+      <!-- backpack -->
+      <path class="ink" fill="#c8602b" d="M160 226 Q158 214 172 214 L184 214 L186 284 L168 284 Q158 282 160 268 Z"/>
+      <path class="ink" fill="#b04f22" stroke-width="3" d="M160 254 L178 254 L178 274 L162 274"/>
+      <rect class="ink" x="156" y="282" width="34" height="10" rx="5" fill="#2f5c9e" stroke-width="3"/>
+      <!-- jacket -->
+      <path class="ink" fill="#525866" d="M180 222 Q196 212 212 222 L214 290 L180 290 Z"/>
+      <path class="stitch" d="M184 248 l6 -4 l6 4 l6 -4 l6 4"/>
+      <path class="stitch" d="M184 268 l6 -4 l6 4 l6 -4 l6 4"/>
+        <g class="sip-head"><path class="night" d="M220 196 L330 170 L330 236 Z" fill="url(#beam)"/>
+      <!-- head -->
+      <path class="ink" fill="#3b2a21" stroke-width="3" d="M188 196 C182 206 182 218 188 226 L198 222 L196 196 Z"/>
+      <path class="ink" fill="#e9b48c" d="M192 190 C206 184 222 190 222 204 C222 214 216 222 206 224 C198 224 192 218 192 208 Z"/>
+      <path d="M200 214 C204 224 214 226 220 216 C216 220 210 220 206 214 Z" fill="#6b4a35" fill-opacity=".7"/>
+      <circle class="eye" cx="212" cy="203" r="2.4" fill="#3b2a21"/>
+      <path d="M207 197 Q212 194 217 197" fill="none" stroke="#3b2a21" stroke-width="2.5" stroke-linecap="round"/>
+      <path class="thin" stroke-width="2" d="M220 204 Q224 209 220 211"/>
+      <!-- bucket hat with headlamp -->
+      <path class="ink" fill="#d9c29a" d="M188 192 C186 176 196 168 206 168 C218 168 224 178 222 192 Z"/>
+      <path class="ink" fill="#cdb489" stroke-width="3" d="M178 194 Q204 182 232 196 Q234 200 228 200 Q204 192 182 200 Q176 200 178 194 Z"/>
+      <rect class="ink" x="216" y="184" width="8" height="7" rx="2" fill="#1e2b4a" stroke-width="2"/>
+      <circle class="night" cx="222" cy="187.5" r="2.5" fill="#fff6c9"/>
+        </g>
+        <path class="ink" fill="#5f6675" d="M198 228 Q210 232 216 250 L208 258 Q200 246 194 238 Z"/>
+        <g class="forearm">
+          <path class="ink" fill="#5f6675" d="M206 250 L230 244 L232 254 L210 260 Z"/>
+          <g transform="translate(232 244)">
+            <path class="ink" fill="#c9cfd8" stroke-width="2" d="M2 -6 L-3 -18 L-1 -19 L4 -6 Z"/>
+            <path class="ink" fill="#8a5a3a" stroke-width="2.5" d="M-7 -6 C-8 6 -3 11 2 11 C7 11 12 6 11 -6 Z"/>
+            <ellipse class="ink" cx="2" cy="-6" rx="10" ry="3" fill="#c9cfd8" stroke-width="2"/>
+            <g class="steam" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".8"><path d="M6 -12 q-4 -5 0 -10 q4 -5 0 -10"/></g>
+          </g>
+          <circle class="ink" cx="232" cy="249" r="5" fill="#e9b48c" stroke-width="3"/>
+        </g>
+      </g></g>
+    </g></g>
+
+    <!-- no lupines in winter -->
+
+    <!-- falling snow -->
+    <g class="snowfall" fill="#fff" opacity=".9"><circle cx="196" cy="224" r="1.6"/><circle cx="196" cy="-176" r="1.6"/><circle cx="98" cy="177" r="2.3"/><circle cx="98" cy="-223" r="2.3"/><circle cx="31" cy="352" r="2.5"/><circle cx="31" cy="-48" r="2.5"/><circle cx="164" cy="114" r="2.8"/><circle cx="164" cy="-286" r="2.8"/><circle cx="263" cy="31" r="2.3"/><circle cx="263" cy="-369" r="2.3"/><circle cx="94" cy="269" r="1.7"/><circle cx="94" cy="-131" r="1.7"/><circle cx="224" cy="195" r="1.7"/><circle cx="224" cy="-205" r="1.7"/><circle cx="20" cy="376" r="3.1"/><circle cx="20" cy="-24" r="3.1"/><circle cx="48" cy="178" r="3.1"/><circle cx="48" cy="-222" r="3.1"/><circle cx="76" cy="168" r="2.4"/><circle cx="76" cy="-232" r="2.4"/><circle cx="269" cy="112" r="1.7"/><circle cx="269" cy="-288" r="1.7"/><circle cx="394" cy="178" r="1.8"/><circle cx="394" cy="-222" r="1.8"/><circle cx="219" cy="132" r="1.7"/><circle cx="219" cy="-268" r="1.7"/><circle cx="309" cy="141" r="2.0"/><circle cx="309" cy="-259" r="2.0"/><circle cx="32" cy="370" r="1.8"/><circle cx="32" cy="-30" r="1.8"/><circle cx="354" cy="188" r="1.8"/><circle cx="354" cy="-212" r="1.8"/><circle cx="241" cy="161" r="2.8"/><circle cx="241" cy="-239" r="2.8"/><circle cx="261" cy="54" r="1.8"/><circle cx="261" cy="-346" r="1.8"/><circle cx="180" cy="36" r="1.5"/><circle cx="180" cy="-364" r="1.5"/><circle cx="165" cy="272" r="2.6"/><circle cx="165" cy="-128" r="2.6"/><circle cx="382" cy="130" r="2.2"/><circle cx="382" cy="-270" r="2.2"/><circle cx="198" cy="176" r="2.9"/><circle cx="198" cy="-224" r="2.9"/><circle cx="180" cy="176" r="1.9"/><circle cx="180" cy="-224" r="1.9"/><circle cx="95" cy="297" r="1.6"/><circle cx="95" cy="-103" r="1.6"/><circle cx="108" cy="307" r="2.9"/><circle cx="108" cy="-93" r="2.9"/><circle cx="387" cy="371" r="2.9"/><circle cx="387" cy="-29" r="2.9"/><circle cx="299" cy="256" r="2.4"/><circle cx="299" cy="-144" r="2.4"/><circle cx="10" cy="129" r="2.0"/><circle cx="10" cy="-271" r="2.0"/><circle cx="86" cy="157" r="2.6"/><circle cx="86" cy="-243" r="2.6"/><circle cx="295" cy="107" r="3.1"/><circle cx="295" cy="-293" r="3.1"/><circle cx="3" cy="144" r="2.5"/><circle cx="3" cy="-256" r="2.5"/><circle cx="176" cy="36" r="3.2"/><circle cx="176" cy="-364" r="3.2"/><circle cx="183" cy="349" r="2.5"/><circle cx="183" cy="-51" r="2.5"/><circle cx="188" cy="50" r="2.8"/><circle cx="188" cy="-350" r="2.8"/></g>
+  </g>
+
+  <circle class="ring" cx="200" cy="200" r="186" fill="none" stroke="#1e2b4a" stroke-width="7"/>
+  <g class="orbit">
+    <g transform="translate(200 4) rotate(20)">
+      <rect class="ink" x="-6" y="-6" width="12" height="12" fill="#f3ead9" stroke-width="2.5"/>
+      <rect class="ink" x="-24" y="-4" width="14" height="8" fill="#0f9e8a" stroke-width="2"/>
+      <rect class="ink" x="10" y="-4" width="14" height="8" fill="#0f9e8a" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
