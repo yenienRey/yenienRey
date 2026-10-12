@@ -85,6 +85,9 @@
     <path class="ink" fill="#5f6675" d="M160 316 Q138 342 166 380 L186 352 Q170 336 172 318 Z"/>
     <path class="ink" fill="#5f6675" d="M240 316 Q262 342 234 380 L214 352 Q230 336 228 318 Z"/>
     <path class="thin" d="M207 378 L212 420"/>
+    <path class="ink" fill="#c9cfd8" stroke-width="2" d="M203 384 L211 384 L210 396 L204 396 Z"/>
+    <path d="M236 330 C246 352 248 376 244 400" fill="none" stroke="#3a3f4a" stroke-width="4" stroke-linecap="round"/>
+    <rect class="ink" fill="#d6c4a2" stroke-width="2" x="240" y="398" width="7" height="12" rx="2"/>
     <g>
       <path class="stitch" d="M58 372 l10 -7 l10 7 l10 -7 l10 7 l10 -7 l10 7"/>
       <path class="stitch" d="M46 398 l10 -7 l10 7 l10 -7 l10 7 l10 -7 l10 7 l10 -7 l10 7"/>
@@ -92,11 +95,16 @@
       <path class="stitch" d="M266 396 l10 -7 l10 7 l10 -7 l10 7 l10 -7 l10 7 l10 -7 l10 7"/>
     </g>
 
-    <!-- ears, hair, face -->
+    <g transform="rotate(6 200 300)">
+    <!-- hair, ears, face -->
+    <!-- hair: dark, wavy, out from under the hat to the jaw -->
+    <g class="hair-back">
+      <path fill="#3b2a21" stroke="#1e2b4a" stroke-width="3" stroke-linejoin="round" d="M154 194 C136 198 124 212 121 230 C119 244 115 254 106 262 C114 268 124 266 129 261 C127 272 121 280 112 285 C123 290 136 285 142 278 C143 286 141 292 136 299 C149 297 157 286 159 272 L160 200 Z"/>
+      <path fill="#3b2a21" stroke="#1e2b4a" stroke-width="3" stroke-linejoin="round" d="M246 194 C262 198 272 210 276 226 C279 240 284 250 292 256 C284 262 276 260 271 256 C271 266 265 272 256 274 L240 200 Z"/>
+      <path d="M136 226 Q130 246 116 260 M146 254 Q142 272 126 282 M264 226 Q270 242 282 254" fill="none" stroke="#6a4c38" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
     <ellipse class="ink" fill="#e9b48c" cx="143" cy="232" rx="10" ry="15"/>
     <ellipse class="ink" fill="#e9b48c" cx="257" cy="232" rx="10" ry="15"/>
-    <path class="ink" fill="#3b2a21" d="M150 192 C130 200 126 222 132 240 C124 244 126 256 134 258 C130 266 140 272 146 264 C150 248 152 230 156 212 Z"/>
-    <path class="ink" fill="#3b2a21" d="M250 192 C270 200 274 222 268 240 C276 244 274 256 266 258 C270 266 260 272 254 264 C250 248 248 230 244 212 Z"/>
     <path class="ink" fill="#e9b48c" d="M146 196 C146 162 254 162 254 196 L254 232 C254 278 228 304 200 306 C172 304 146 278 146 232 Z"/>
 
     <!-- stubble beard, with skin showing through -->
@@ -105,8 +113,9 @@
         <circle cx="1.5" cy="1.5" r="1.1" fill="#2a1d16" fill-opacity=".55"/><circle cx="4.5" cy="4.5" r="1" fill="#2a1d16" fill-opacity=".5"/>
       </pattern>
     </defs>
-    <path d="M147 228 C150 282 178 308 200 308 C222 308 250 282 253 228 C248 252 236 262 222 260 C212 252 188 252 178 260 C164 262 152 252 147 228 Z" fill="#6b4a35" fill-opacity=".6"/>
-    <path d="M147 228 C150 282 178 308 200 308 C222 308 250 282 253 228 C248 252 236 262 222 260 C212 252 188 252 178 260 C164 262 152 252 147 228 Z" fill="url(#stubble)"/>
+    <path d="M148 238 C150 286 178 310 200 310 C222 310 250 286 252 238 C246 262 234 268 222 264 C212 256 188 256 178 264 C166 268 154 262 148 238 Z" fill="#6b4a35" fill-opacity=".6"/>
+    <path d="M148 238 C150 286 178 310 200 310 C222 310 250 286 252 238 C246 262 234 268 222 264 C212 256 188 256 178 264 C166 268 154 262 148 238 Z" fill="url(#stubble)"/>
+    <path d="M180 282 Q200 292 220 282 Q216 304 200 306 Q184 304 180 282 Z" fill="#2a1d16" fill-opacity=".25"/>
     <path fill="#3b2a21" d="M176 262 Q200 248 224 262 Q212 259 200 261 Q188 259 176 262 Z"/>
     <path fill="#c97a68" d="M186 270 Q200 278 214 270 Q200 274 186 270 Z"/>
     <path class="thin" d="M184 270 Q200 280 216 269"/>
@@ -139,6 +148,7 @@
     <rect class="ink" fill="#1e2b4a" stroke-width="2.5" x="182" y="146" width="36" height="22" rx="4"/>
     <path d="M188 152 l6 5 l-6 5" fill="none" stroke="#6ff2dc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     <rect class="cursor" x="198" y="160" width="10" height="3" fill="#6ff2dc"/>
+    </g>
     </g>
 
     <!-- a mate, never far away -->
